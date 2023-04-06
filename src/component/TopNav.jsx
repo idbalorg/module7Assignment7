@@ -1,9 +1,9 @@
 import React from "react";
 
-const TopNav = (props) => {
+const TopNav = ({name}) => {
   return (
     <>
-      <span> {props.name} </span>
+      <span> {name} </span>
     </>
   );
 };

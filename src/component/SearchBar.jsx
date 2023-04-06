@@ -1,14 +1,21 @@
+
 import React from 'react';
+import Button  from './Button';
 import { FaSearch, FaCamera } from 'react-icons/fa';
 
-function SearchBar({ value, onChange }) {
+function SearchBar() {
   return (
-    <div className="search-box">
+    <div className="">
       <form>
-        <div className="input-container">
-          <input type="text" placeholder="Search Google" className="input-field" value={value} onChange={onChange} />
-          <FaSearch className="search-icon" />
-          <FaCamera className="camera-icon" />
+        <div className="">
+          <input type="text" placeholder="Search Google" className="" />
+          <FaSearch className="" />
+          <FaCamera className="" />
+        </div>
+        <div>
+          <Button name = "Google Search"/>
+          <Button name = "Im Feeling Lucky"/>
+
         </div>
       </form>
     </div>
