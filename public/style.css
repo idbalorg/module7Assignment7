@@ -1,0 +1,86 @@
+#topNav{
+    text-align: end;
+    margin: 10px ;
+
+}
+
+body{
+    background-color:#2C3333 ;
+    color: antiquewhite;
+}
+
+.anchor{
+    margin-right: 4%;
+    color:white;
+    text-decoration: none;
+}
+
+.anchor:hover{
+    color: antiquewhite;
+}
+
+#sign{
+    height: 40px;
+    width: 80px;
+    background-color:#62CDFF ;
+    border-radius: 5px;
+    border-style: none;
+
+
+    
+}
+
+#sign:hover{
+    color: azure;
+    background-color: aquamarine;
+}
+
+.gtext{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 7rem;
+    margin-bottom: 5%;
+}
+
+.searchBox{
+    width: 80%;
+    height: 40px;
+    border-radius: 30px;
+    margin: auto 10% 5% 10%;
+    text-align: left;
+    padding-left: 2%;
+    font-size: 17px;
+    
+
+}
+
+#buttons{
+    text-align: center;
+}
+
+#buttons button{
+    height: 40px;
+    margin: auto 1% auto 1%;
+    background-color:#2c4646 ;
+    border-style: hidden;
+    color: antiquewhite;
+    padding: 2% 4%;
+    font-size: 14px;
+
+}
+
+#buttons button:hover{
+    background-color: #578383;
+    color: beige;
+}
+
+.ptag{
+    margin-right: 5%;
+}
+
+.ptag a{
+    color: rgb(0, 195, 255);
+    margin-left: 2%;
+}
+
+
